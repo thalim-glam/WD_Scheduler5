@@ -11,6 +11,20 @@ textarea {
   border-left: 1px solid black;
   padding: 10px;
 }
+.display-3{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style:italic;
+}
+.lead{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-display: initial;
+}
+.lead-1{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+}
 
 .description {
   white-space: pre-wrap;
