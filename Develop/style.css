@@ -26,6 +26,11 @@ textarea {
   font-family:'Times New Roman', Times, serif;
 }
 
+#clearFieldsBtn {
+  background-color: #06aed5;
+  color:aliceblue;
+}
+
 .description {
   white-space: pre-wrap;
 }
@@ -70,4 +75,8 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.time{
+  background-color: hsl(62, 100%, 49%);
 }
