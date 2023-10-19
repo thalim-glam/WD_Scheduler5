@@ -37,9 +37,14 @@ $(function () {
   }
   timeUpdate()
 
-  $("#currentDay").text(dayjs().format('DD/MM/YYYY'))
+  $("#currentDay").text(moment().format('[Today: ] LLLL'))
 
-
+  // Button function to clear local storage and clear contents
+  $("#clearFieldsBtn").click(function (event) {
+    event.preventDefault;
+    $("textarea").val("");
+    localStorage.clear();
+  });
 
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
