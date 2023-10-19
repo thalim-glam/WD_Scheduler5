@@ -2,10 +2,9 @@
 
 ## Description
 
-This is the fourth challenge for UC Berkley coding boot camp which is a coding quiz application. 
-- I named the challenge "WApi_QuizGen” because I needed the concept of web APIs     for this homework.
-- This challenge emphasized the use of JavaScript to provide questions and collect user inputs to determine whether the answer is correct or wrong. There is a timer decreasing gradually unless the user chooses the wrong input. Every wrong input deducts some time from the main timer. The final score is the user's score.
-- This project helped me to learn more about how to use logic in JavaScript and different types of API uses.
+This is a "Work day scheduler", the 5th challenge/homework for UC Berkley coding boot camp. 
+- The name of this challenge "WDth_Scheduler5" simply reflect my work day scheduler.
+- This project helped me to learn more about how jQuery works in JavaScript, how to do dynamic programming and how localstorage works.
  
 ## Installation
 
@@ -14,7 +13,7 @@ To run the application successfully, we need Microsoft Visual Studio as an edito
 ## Task 
 
 -	HTML and CSS is used to design the interface.
--	JavaScript documents helped to create the coding quiz with multiple-choice questions.
+-	A starter code is being given and we mostly worked on the JavaScript part.
 -	This homework emphasized the importance of using JavaScript web APIs to make dynamic changes to an HTML document.
 -	Different event listeners and functions were implemented for user convenience.
 
@@ -55,25 +54,28 @@ Apart from me :D the credit also goes to my Instructor, TAs, Tutor, Classmates, 
 ## User Story
 
 ```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
+AS AN employee with a busy schedule
+I WANT to add important events to a daily planner
+SO THAT I can manage my time effectively
 ```
 
 ## Acceptance Criteria
 
 ```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
+GIVEN I am using a daily planner to create a schedule
+WHEN I open the planner
+THEN the current day is displayed at the top of the calendar
+WHEN I scroll down
+THEN I am presented with time blocks for standard business hours of 9am to 5pm
+WHEN I view the time blocks for that day
+THEN each time block is color-coded to indicate whether it is in the past, present, or future
+WHEN I click into a time block
+THEN I can enter an event
+WHEN I click the save button for that time block
+THEN the text for that event is saved in local storage
+WHEN I refresh the page
+THEN the saved events persist
+
 ```
 ## License
 
@@ -88,9 +90,9 @@ MIT Lisence
 ## Features
 
 In my code I had 1 main branch and crated a few featured branch to test my code and update.
-  - I had to create everything from the scratch
+  - I worked on the basic starter code provided from the bootcamp.
   - Added the screenshot and 
-  - Used console.log and inspect to debug my work
+  - Used inspect to monitor my code and it's performance.
 
 ## How to Contribute
 
