@@ -37,8 +37,7 @@ $(function () {
   }
   timeUpdate()
 
-  $("#currentDay").text(dayjs().format('[Today is:] MM/ DD/ YYYY[, Time :] HH:mm'))
-
+  $("#currentDay").text(moment().format('[Today: ] LLLL'))
 
 
 
