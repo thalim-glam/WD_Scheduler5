@@ -19,7 +19,7 @@ To run the application successfully, we need Microsoft Visual Studio as an edito
 
 ## Usage
 
-To see my homework, please go to : https://thalim-glam.github.io/WaPi_quizGen/
+To see my homework, please go to : https://thalim-glam.github.io/WDth_Scheduler5/
 
 Here are the sample screenshots
 - Screenshot : Demo of expectation
