@@ -1,9 +1,9 @@
-# Work Day Scheduler Starter Code
+# Tasneem's Work Day Scheduler 
 
 ## Description
 
 This is a "Work day scheduler", the 5th challenge/homework for UC Berkley coding boot camp. 
-- The name of this challenge "WDth_Scheduler5" simply reflect my work day scheduler.
+- The name of this challenge "WDth_Scheduler5" simply reflect my work day scheduler :D
 - This project helped me to learn more about how jQuery works in JavaScript, how to do dynamic programming and how localstorage works.
  
 ## Installation
@@ -21,13 +21,13 @@ To run the application successfully, we need Microsoft Visual Studio as an edito
 
 To see my homework, please go to : https://thalim-glam.github.io/WaPi_quizGen/
 
-Here is a sample screenshot showing partial view og my project
-- Screenshot : Code Quiz Generator
-![Screenshot of Code Quiz Generator](./assets/images/Screenshot_1.png)
-- Screenshot : Sample of Quiz Questions
-![Screenshot of Sample of Quiz Questions](./assets/images/Screenshot_2.png)
-- Screenshot: Final Scores of different users
-![Screenshot of Final Scores of different users](./assets/images/Screenshot_3.png)
+Here are the sample screenshots
+- Screenshot : Demo of expectation
+![Screenshot of GIF in starter code](./Assets/Demo.gif)
+- Screenshot : Initial clear schedule
+![Screenshot of Empty Schedule](./Assets/Screenshot_1.png)
+- Screenshot: Full Work day Schedule 
+![Screenshot of Full workday schedule](./Assets/Screenshot_2.png)
 
 ## Comand line code
 
@@ -91,7 +91,7 @@ MIT Lisence
 
 In my code I had 1 main branch and crated a few featured branch to test my code and update.
   - I worked on the basic starter code provided from the bootcamp.
-  - Added the screenshot and 
+  - Added the javaScript code to make it work.
   - Used inspect to monitor my code and it's performance.
 
 ## How to Contribute
@@ -104,9 +104,8 @@ The TAs were very supportive and guided me a lot.
 
 To test the homework, 
   - Please follow the deployed website link. 
-  - Click the "START" button to start the quiz.
-  - You can test the quiz different ways.
-  - You can check the "Console" to see some of my checking messages.
-  - I have put lots of comments inside the my code for my understanding.s
+  - Click the "Clear Field" button to reset schedule.
+  - You can test the application different ways.
+  - You can check the "Inspect -> Applications" to see the saved values.
 
 ### Done By: Tasneem Halim
