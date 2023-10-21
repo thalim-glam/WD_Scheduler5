@@ -11,24 +11,27 @@ textarea {
   border-left: 1px solid black;
   padding: 10px;
 }
-.display-3{
+
+.display-3 {
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-style:italic;
+  font-style: italic;
 }
-.lead{
+
+.lead {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-display: initial;
 }
-.lead-1{
+
+.lead-1 {
   text-align: center;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #clearFieldsBtn {
   background-color: #06aed5;
-  color:aliceblue;
+  color: aliceblue;
 }
 
 .description {
@@ -77,6 +80,6 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-.time{
+.time {
   background-color: hsl(62, 100%, 49%);
 }
