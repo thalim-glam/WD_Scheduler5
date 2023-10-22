@@ -94,13 +94,16 @@ In my code I had 1 main branch and crated a few featured branch to test my code 
   - Added the javaScript code to make it work.
   - Used inspect to monitor my code and it's performance.
 
-## How to Contribute
+## Summery
+- This is a single day eight hour planner created by using HMTL, CSS and JS concept.
+- The text filed represents tasks of the day which are manually added to the local storage.
+- jQuery concept from JavaScript is used to get and set values from/to the local storage.
+- A clear function was used to clear all the tasks.
+- The header contains the local date and time that updates continuously.
+- Day.js function was used for time calculation and formatting conversion at the top of the page.
+- Color representation inclued: RED (for present hour), GRAY (for past hour) and GREEN (for future hour)
 
-I followed this https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide as my guidelines to how to write a README file.
-I also did tutoring session to understand the homework better.
-The TAs were very supportive and guided me a lot.
-
-## Tests
+## How to Test
 
 To test the homework, 
   - Please follow the deployed website link. 
