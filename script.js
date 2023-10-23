@@ -19,7 +19,7 @@ $(function () {
     console.log(currentTime)
     $(".time-block").each(function () {
       const timeId = parseInt($(this).attr("id").split("-")[1])
-      console.log(timeId)
+      // console.log(timeId)
       if (timeId < currentTime) {
         $(this).addClass("past")
       } else if (timeId === currentTime) {
