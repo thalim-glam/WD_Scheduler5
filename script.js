@@ -5,6 +5,8 @@ $(function () {
     const hourBlock = $(this).parent().attr("id")
     const note = $(this).siblings(".description").val()
     localStorage.setItem(hourBlock, note)
+    //localStorage.sort((a, b) => { a.hourBlock - b.hourBlock })
+    alert("Add/Change to the new event? Click OK to confirm")
   })
   for (var i = 9; i <= 17; i++) {
     $(`#hour-${i} .description`).val(localStorage.getItem(`hour-${i}`))
@@ -17,7 +19,7 @@ $(function () {
     console.log(currentTime)
     $(".time-block").each(function () {
       const timeId = parseInt($(this).attr("id").split("-")[1])
-      console.log(timeId)
+      // console.log(timeId)
       if (timeId < currentTime) {
         $(this).addClass("past")
       } else if (timeId === currentTime) {
