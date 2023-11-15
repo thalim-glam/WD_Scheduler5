@@ -94,7 +94,7 @@ In my code I had 1 main branch and crated a few featured branch to test my code 
   - Added the javaScript code to make it work.
   - Used inspect to monitor my code and it's performance.
 
-## Summery
+## Summary
 - This is a single day eight hour planner created by using HMTL, CSS and JS concept.
 - The text filed represents tasks of the day which are manually added to the local storage.
 - jQuery concept from JavaScript is used to get and set values from/to the local storage.
